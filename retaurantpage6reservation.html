@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>No Name Re</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500&family=Dosis:wght@300;400;500;600;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Play:wght@400;700&family=Quicksand:wght@300;400;500&family=Roboto:ital,wght@0,400;0,500;1,400&family=Space+Grotesk:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="page6res.css" />
+    <link rel="stylesheet" href="headerpage1.css" />
+    <link rel="stylesheet" href="footer.css" >
+    <script>
+      function showAlert() {
+        alert("Form submitted successfully!");
+        alert("We will contact with you soon to confirm your details and do payment!!");
+        alert("Thank you and have a nice day!!!");
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="left-section">
+        <a href="Restauranpage1homepage.html"
+          ><img class="logo-res" src="logo-vipAA.svg"
+        /></a>
+      </div>
+      <div class="right-section">
+        <div>
+          <a
+            href="Restauranpage1homepage.html"
+            style="color: black; text-decoration: none"
+            >HOME</a
+          >
+        </div>
+        <div>
+          <a
+            href="Restautrantpage2aboutus.html"
+            style="color: black; text-decoration: none"
+            >OUR STORY</a
+          >
+        </div>
+        <div>
+          <a
+            href="restautantpage3menu.html"
+            style="color: black; text-decoration: none"
+            >MENU</a
+          >
+        </div>
+        <div>
+          <a href="what-on.html" style="color: black; text-decoration: none"
+            >WHAT'S ON</a
+          >
+        </div>
+        <div>
+          <a
+            href="retaurantpage5gallery.html"
+            style="color: black; text-decoration: none"
+            >GALLERY</a
+          >
+        </div>
+        <button>
+          <a
+            href="retaurantpage6reservation.html"
+            style="color: white; text-decoration: none"
+            >BOOK A TABLE</a
+          >
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="container">
+        <h3>Booking Form</h3>
+        <form action="#" class="form" onsubmit="showAlert()">
+          <div class="input-box">
+            <label>Full Name</label>
+            <input type="text" required placeholder="First name" />
+            <input type="text" required placeholder="Last name" />
+          </div>
+          <div class="input-box">
+            <label>Email</label>
+            <input type="email" required placeholder="example@example.com" />
+          </div>
+          <div class="column">
+            <div class="input-box">
+              <label>Phone Number</label>
+              <input type="number" required placeholder="(+65) 0000 0000" />
+            </div>
+            <div class="input-box">
+              <label>Birth Date</label>
+              <input type="date"  placeholder="Enter birth date" />
+            </div>
+            <div class="title-box">
+              <h3>Title</h3>
+              <div class="title-option">
+                <div class="title">
+                  <input type="radio" id="check-mr" name="title" checked />
+                  <label for="check">Mr</label>
+                </div>
+                <div class="title">
+                  <input type="radio" id="check" name="title" />
+                  <label for="check-mrs">Mrs</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="input-box">
+            <label>Address</label>
+            <input type="text" required placeholder="Enter street address " />
+            <input type="number" required placeholder="Enter postal code " />
+          </div>
+            <div class="input-box">
+              <label>Menu</label>
+              <div class="column">
+                <div class="select-box">
+                  <select>
+                    <option hidden>Choose menu</option>
+                    <option>A La Carte Menu</option>
+                    <option>Executive Set Lunch Menu</option>
+                    <option>Executive Set Lunch Menu</option>
+                    <option>Chef's table</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+          <div>
+            <div class="input-box">
+              <label>Party size </label>
+              <input
+                type="number"
+                min="1"
+                requied
+                placeholder="Number of people"
+              />
+            </div>
+          <div class="column">
+            
+            <div class="input-box">
+              <label>Time</label>
+              <input type="time" min="10:00" max="21:45" required />
+            </div>
+            <div class="input-box">
+              <label>Appointment date</label>
+              <input type="date" required placeholder="Enter birth date" />
+            </div>
+  
+          </div>
+          <div class="input-box">
+            <label>Comment</label>
+            <textarea ></textarea>
+          </div>
+          <div class="check-box">
+            <label> I would like to receive news and offers from Accor & partner by:</label>
+            <input type="checkbox" /> Email <input type="checkbox" /> SMS
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+    </section>
+    </main>  
+  </body>
+  <footer> 
+    <div class="address-footer">#No Name Res, Yishun Ave 1, Blk 431A, #03-503, S123431</div>
+    <div>Follow Us On Social Media</div>
+    <div class="img-socialmedia">
+      <img class="img-socialmedia1" src="youtube.png">
+      <img class="img-socialmedia2" src="whatsapp.png">
+      <img class="img-socialmedia3" src="facebook.png">
+      <img class="img-socialmedia4" src="instagram.png">
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  margin-top: 70px;
+
+}
+.img-top-whaton {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.title-whaton p{
+  font-family: Dosis;
+  text-align: center;
+  color: rgb(106, 106, 106);
+  font-size: 30px;
+  background-color: whitesmoke;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.grid-what-on-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.img-middile-what-on {
+  width: 100%;
+  height: 400px;
+  object-position: center;
+  object-fit: cover;
+}
+.slideshow {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slideshow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.slideshow img.active {
+  opacity: 1;
+}
+.container-text  {
+  color: white;
+  background-color: rgb(139, 99, 75);
+  padding-left: 30px;
+  text-align: middle;
+  font-family: dosis;
+  line-height: 20px;
+}
+.container-text button {
+  border: solid;
+  border-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: white;
+  background-color: rgb(28, 41, 51);
+  cursor: pointer;
+}
+.container-text p{
+  width: 500px;
+  
+}
+.note {
+ font-weight: bold;
+}
+.title-what-on {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 50px;
+  
+}
+.button-left {
+  margin-right: 20px;
+}
+
+
+
+
+
+
+

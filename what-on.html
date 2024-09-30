@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>No Name Res</title>
+    <link rel="stylesheet" href="what-on.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500&family=Dosis:wght@300;400;500;600;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Play:wght@400;700&family=Roboto:ital,wght@0,400;0,500;1,400&family=Space+Grotesk:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="headerpage1.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+  <body>
+    <header>
+      <div class="left-section">
+        <a href="Restauranpage1homepage.html"
+          ><img class="logo-res" src="logo-vipAA.svg"
+        /></a>
+      </div>
+      <div class="right-section">
+        <div>
+          <a
+            href="Restauranpage1homepage.html"
+            style="color: black; text-decoration: none"
+            >HOME</a
+          >
+        </div>
+        <div>
+          <a
+            href="Restautrantpage2aboutus.html"
+            style="color: black; text-decoration: none"
+            >OUR STORY</a
+          >
+        </div>
+        <div>
+          <a
+            href="restautantpage3menu.html"
+            style="color: black; text-decoration: none"
+            >MENU</a
+          >
+        </div>
+        <div>
+          <a href="what-on.html" style="color: black; text-decoration: none"
+            >WHAT'S ON</a
+          >
+        </div>
+        <div>
+          <a
+            href="retaurantpage5gallery.html"
+            style="color: black; text-decoration: none"
+            >GALLERY</a
+          >
+        </div>
+        <button>
+          <a
+            href="retaurantpage6reservation.html"
+            style="color: white; text-decoration: none"
+            >BOOK A TABLE</a
+          >
+        </button>
+      </div>
+    </header>
+    <main>
+      <section>
+        <img class="img-top-whaton" src="img15.jpeg" />
+      </section>
+      <section class="title-whaton">
+        <p>WHAT'S ON</p>
+      </section>
+      <section class="grid-what-on-container">
+        <div>
+          <img class="img-middile-what-on" src="img31.jpeg" />
+        </div>
+        <div class="container-text">
+          <p class="title-what-on">CALIFORNIA WINE MONTH SPECIAL</p>
+          <p class="note">FROM 1 TO 30 JUNE 2023</p>
+          <p>
+            Enjoy a specially-curated flight of 3 glasses of Californian wines
+            at $148++ per guest. Discover gems from the lesser-known region of
+            Russian River Valley, and the lesser-known variety of Zinfandel, as
+            well as a wine from cult wine producer Dominus Estate.
+          </p>
+        </div>
+        <div class="container-text">
+          <p class="title-what-on">SPRING TOUR DE FORCE</p>
+          <p class="note">FROM NOW WHILE THE SEASON LASTS</p>
+          <p>
+            Partake in the wonderful bounty of Spring in the refreshed Tour De
+            Force, our signature multi-course wood-fired dining experience
+            perfectly curated by Chef de Cuisine Jordan Keao. Savour new
+            delights such as Brown Crab Tartlet with Garlic Chive Tuile, Grilled
+            French Asparagus with N25 Caviar, Grilled Norwegian Razor Clams with
+            Kombu Beurre Blanc, and Amalfi Lemon Curd with Haupia Tart.
+          </p>
+          <a href="restautantpage3menu.html"
+            ><button class="button-left">VIEW MENU</button></a
+          >
+          <a href="retaurantpage6reservation.html"><button>BOOK NOW</button></a>
+        </div>
+        <div class="slideshow">
+          <img src="img1.jpeg" alt="Image 1" />
+          <img src="img2.jpeg" alt="Image 2" />
+          <img src="img3.jpeg" alt="Image 3" />
+          <img src="img4.jpeg" alt="Image 4" />
+          <img src="img5.jpeg" alt="Image 5" />
+        </div>
+        <div>
+          <img class="img-middile-what-on" src="img30.jpeg" />
+        </div>
+        <div class="container-text">
+          <p class="title-what-on">CHEF'S TABLE</p>
+          <p class="note">DINNER, WEDNESDAY TO SUNDAY</p>
+          <p>
+            Presented by Chef Jordan Keao, Chef’s Table is a heightened
+            avant-garde wood-fired dining experience showcasing a meticulously
+            curated menu that includes several off-the-menu creations that
+            comprise of seasonal produce alongside special cuts of meats and
+            whole fish. This wood-fired dining extravaganza is perfect for 6 to
+            10 guests and takes place exclusively at the specially allocated
+            long wooden table that takes centre stage in the middle of the
+            restaurant. Elevate the exquisite dining experience with Chef
+            Jordan’s dedicated tableside presentation and passionate commitment
+            to food sustainability to bring the freshest farm-to-table
+            ingredients for the ultimate epicurean show-and-tell.
+          </p>
+          <a href="restautantpage3menu.html"
+            ><button class="button-left">VIEW MENU</button></a
+          >
+          <a href="retaurantpage6reservation.html"><button>BOOK NOW</button></a>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <div style="height: 200px; background-color: rgb(28, 41, 51)"></div>
+    <div class="address-footer">
+      #No Name Res, Yishun Ave 1, Blk 431A, #03-503, S123431
+    </div>
+    <div>Follow Us On Social Media</div>
+    <div class="img-socialmedia">
+      <img class="img-socialmedia1" src="youtube.png" />
+      <img class="img-socialmedia2" src="whatsapp.png" />
+      <img class="img-socialmedia3" src="facebook.png" />
+      <img class="img-socialmedia4" src="instagram.png" />
+    </div>
+  </footer>
+  <script>
+    var images = document.querySelectorAll(".slideshow img");
+    var currentImage = 0;
+
+    function slideShow() {
+      images[currentImage].className = "";
+      currentImage = (currentImage + 1) % images.length;
+      images[currentImage].className = "active";
+    }
+
+    setInterval(slideShow, 3000);
+  </script>
+</html>

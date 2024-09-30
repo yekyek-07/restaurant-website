@@ -1,0 +1,301 @@
+body {
+  margin: 0;
+  background-color: rgb(28, 41, 51);
+  margin-top: 70px;
+}
+/* Style the modal container */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  padding-top: 20px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow: auto;
+}
+
+/* Style the modal content */
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  max-height: 80vh;
+}
+
+/* Style the close button */
+.close {
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #bbb;
+}
+
+
+
+.img-top-page5 img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  
+  
+}
+.title-gallery {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: Quicksand;
+
+}
+.tab {
+  overflow: hidden;
+  background-color: rgb(139, 99, 75);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.tab button {
+  border: none;
+  color: rgba(146, 144, 144, 0.921);
+  background-color: rgb(139, 99, 75);
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Quicksand;
+
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  color: white;
+ 
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  color: white;
+  text-decoration: underline white 2px;
+  text-underline-offset: 8px;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top: none;
+}
+.tabcontent img {
+  cursor: pointer;
+}
+
+
+.flex-img-page5 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.flex-img-page5-1-res,
+.flex-img-page5-2-res,
+.flex-img-page5-3-res,
+.flex-img-page5-4-res {
+  display: flex;
+  flex-direction: row;
+}
+.flex-img-page5-1-res {
+  column-gap: 30px;
+}
+.flex-img-page5-2-res {
+  column-gap: 50px;
+}
+.flex-img-page5-3-res {
+  column-gap: 100px;
+}
+.flex-img-page5-4-res {
+  column-gap: 50px;
+}
+.img-flex-1 {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-flex-1b {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-flex-2 {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-flex-2b {
+  width: 600px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-flex-3 {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-flex-3b {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-flex-4b {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-flex-4 {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.flex-img-page5-1-food,
+.flex-img-page5-2-food,
+.flex-img-page5-3-food,
+.flex-img-page5-4-food,
+.flex-img-page5-5-food {
+  display: flex;
+  flex-direction: row;
+  
+}
+.flex-img-page5-1-food {
+  column-gap: 30px;
+}
+.flex-img-page5-2-food {
+  column-gap: 100px;
+}
+.flex-img-page5-3-food {
+  column-gap: 70px;
+}
+.flex-img-page5-4-food {
+  column-gap: 5px;
+}
+.flex-img-page5-5-food {
+  column-gap: 120px;
+}
+.img-flex-1-food {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-flex-1b-food {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  
+}
+.img-flex-2-food {
+  width: 230px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-flex-2b-food {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  
+}
+.img-flex-3-food {
+  width: 260px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-flex-3b-food {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  
+}
+.img-flex-4-food {
+  width: 190px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-flex-4b-food {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-flex-5-food {
+  width: 190px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-flex-5b-food {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.flex-img-page5-1-peo,
+.flex-img-page5-2-peo {
+  display: flex;
+  flex-direction: row;
+
+}
+.flex-img-page5-1-peo {
+  column-gap: 100px;
+}
+
+.flex-img-page5-2-peo {
+  column-gap: 30px;
+}
+.img-flex-1-peo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-flex-1b-peo {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  
+}
+.img-flex-2-peo {
+  width: 230px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-flex-2b-peo {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  
+}

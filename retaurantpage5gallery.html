@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>No Name Res</title>
+    <link rel="stylesheet" href="page5restaurant.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500&family=Dosis:wght@300;400;500;600;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Play:wght@400;700&family=Quicksand:wght@300;400;500&family=Roboto:ital,wght@0,400;0,500;1,400&family=Space+Grotesk:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="headerpage1.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+  <body>
+    <header>
+      <div class="left-section">
+        <a href="Restauranpage1homepage.html"
+          ><img class="logo-res" src="logo-vipAA.svg"
+        /></a>
+      </div>
+      <div class="right-section">
+        <div>
+          <a
+            href="Restauranpage1homepage.html"
+            style="color: black; text-decoration: none"
+            >HOME</a
+          >
+        </div>
+        <div>
+          <a
+            href="Restautrantpage2aboutus.html"
+            style="color: black; text-decoration: none"
+            >OUR STORY</a
+          >
+        </div>
+        <div>
+          <a
+            href="restautantpage3menu.html"
+            style="color: black; text-decoration: none"
+            >MENU</a
+          >
+        </div>
+        <div>
+          <a href="what-on.html" style="color: black; text-decoration: none"
+            >WHAT'S ON</a
+          >
+        </div>
+        <div>
+          <a
+            href="retaurantpage5gallery.html"
+            style="color: black; text-decoration: none"
+            >GALLERY</a
+          >
+        </div>
+        <button>
+          <a
+            href="retaurantpage6reservation.html"
+            style="color: white; text-decoration: none"
+            >BOOK A TABLE</a
+          >
+        </button>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="img-top-page5">
+          <img src="img32.jpeg" />
+        </div>
+        <p class="title-gallery">GALLERY</p>
+      </section>
+      <br />
+      <br />
+      <section class="tab">
+        <button class="tablink" onclick="openGallery(event, 'Restaurant')">
+          Restaurant
+        </button>
+        <button
+          class="tablink"
+          onclick="openGallery(event, 'Food &amp; Drink')"
+        >
+          Food &amp; Drink
+        </button>
+        <button class="tablink" onclick="openGallery(event, 'People')">
+          People
+        </button>
+      </section>
+      <section>
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="modalImg" />
+        </div>
+
+        <div id="Restaurant" class="tabcontent">
+          <div class="flex-img-page5">
+            <div class="flex-img-page5-1-res">
+              <img
+                class="img-flex-1"
+                src="img33.jpg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-1"
+                src="img34b.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-1"
+                src="img34.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-1b"
+                src="img35.jpeg"
+                onclick="openModal(this)"
+              />
+            </div>
+            <div class="flex-img-page5-2-res">
+              <img
+                class="img-flex-2"
+                src="img36.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-2"
+                src="img37.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-2b"
+                src="img38.jpeg"
+                onclick="openModal(this)"
+              />
+            </div>
+            <div class="flex-img-page5-3-res">
+              <img
+                class="img-flex-3b"
+                src="img39.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-3"
+                src="img40.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-3"
+                src="ing41.jpeg"
+                onclick="openModal(this)"
+              />
+            </div>
+            <div class="flex-img-page5-4-res">
+              <img
+                class="img-flex-4b"
+                src="img44.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-4"
+                src="img44b.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-4b"
+                src="img44c.jpeg"
+                onclick="openModal(this)"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div id="Food &amp; Drink" class="tabcontent">
+          <div class="flex-img-page5">
+            <div class="flex-img-page5-1-food">
+              <img
+                class="img-flex-1-food"
+                src="img45.jpg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-1-food"
+                src="img46.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-1b-food"
+                src="img47.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-1-food"
+                src="img48.jpeg"
+                onclick="openModal(this)"
+              />
+            </div>
+            <div class="flex-img-page5-2-food">
+              <img
+                class="img-flex-2-food"
+                src="img49.jpg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-2b-food"
+                src="img50.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-2-food"
+                src="img51.jpeg"
+                onclick="openModal(this)"
+              />
+            </div>
+            <div class="flex-img-page5-3-food">
+              <img
+                class="img-flex-3b-food"
+                src="img52.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-3-food"
+                src="img53.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-3-food"
+                src="img54.jpeg"
+                onclick="openModal(this)"
+              />
+            </div>
+            <div class="flex-img-page5-4-food">
+              <img
+                class="img-flex-4b-food"
+                src="img55.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-4-food"
+                src="img56.jpg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-4-food"
+                src="img57.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-4-food"
+                src="img58.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-4-food"
+                src="img59.jpeg"
+                onclick="openModal(this)"
+              />
+            </div>
+            <div class="flex-img-page5-5-food">
+              <img
+                class="img-flex-5b-food"
+                src="img60.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-5b-food"
+                src="img61.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-5-food"
+                src="img62.jpeg"
+                onclick="openModal(this)"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div id="People" class="tabcontent">
+          <div class="flex-img-page5">
+            <div class="flex-img-page5-1-peo">
+              <img
+                class="img-flex-1b-peo"
+                src="img68.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-1-peo"
+                src="img69.jpg"
+                onclick="openModal(this)"
+              />
+
+              <img
+                class="img-flex-1-peo"
+                src="img70.jpeg"
+                onclick="openModal(this)"
+              />
+            </div>
+            <div class="flex-img-page5-2-peo">
+              <img
+                class="img-flex-2b-peo"
+                src="img71.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-2-peo"
+                src="img72.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-2b-peo"
+                src="img73.jpeg"
+                onclick="openModal(this)"
+              />
+              <img
+                class="img-flex-2b-peo"
+                src="img74.jpeg"
+                onclick="openModal(this)"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <div style="height: 200px; background-color: rgb(28, 41, 51)"></div>
+    <div class="address-footer">
+      #No Name Res, Yishun Ave 1, Blk 431A, #03-503, S123431
+    </div>
+    <div>Follow Us On Social Media</div>
+    <div class="img-socialmedia">
+      <img class="img-socialmedia1" src="youtube.png" />
+      <img class="img-socialmedia2" src="whatsapp.png" />
+      <img class="img-socialmedia3" src="facebook.png" />
+      <img class="img-socialmedia4" src="instagram.png" />
+    </div>
+  </footer>
+  <script>
+    function openGallery(evt, galleryTitle) {
+      var i, tabcontent, tablink;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablink = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablink.length; i++) {
+        tablink[i].className = tablink[i].className.replace(" active", "");
+      }
+      document.getElementById(galleryTitle).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    window.onload = function () {
+      var defaultTab = document.getElementById("Restaurant");
+      defaultTab.style.display = "block";
+      var defaultButton = document.querySelector(".tablink");
+      defaultButton.className += " active";
+    };
+    function openModal(img) {
+      var modal = document.getElementById("myModal");
+      var modalImg = document.getElementById("modalImg");
+      modal.style.display = "block";
+      modalImg.src = img.src;
+    }
+
+    document.getElementsByClassName("close")[0].onclick = function () {
+      var modal = document.getElementById("myModal");
+      modal.style.display = "none";
+    };
+  </script>
+</html>

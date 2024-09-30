@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  height: 1000px;
+  background-color: rgb(28, 41, 51);
+  margin-top: 70px;
+}
+.img-top-page3 img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.container-img-menu-page3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-menu-page3   p {
+  color: white;
+  font-family: play;
+  font-weight: 700;
+  
+}
+.img-menu-page3-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.container-menu-page3 img {
+  opacity: 0.5;
+}
+.img-menu-page3-top-left {
+  margin-right: 10px;
+  position: relative;
+  
+  
+}
+.title-menu-page3 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  
+  
+}
+.img-menu-page3-top-right {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+}
+
+.img-menu-page3-top-right div {
+  margin-bottom: 10px;
+}
+
+.img-menu-page3-bottom {
+ margin-right: 200px;
+ position: relative;
+}
+.img-menu-page3-top-left img {
+ height: 500px;
+ 
+}
+.img-menu-page3-top-right img {
+  width: 250px;
+}
+.img-menu-page3-bottom img {
+  margin-left: 200px;
+  width: 600px;
+  height: 200px;
+  object-position: center;
+  object-fit: cover;
+}
+.menu-a-la-carte,
+.menu-executive-set-lunch,
+.menu-tour-de-forece-menu,
+.menu-chef-table {
+  position: absolute;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  z-index: 100;
+  cursor: pointer;
+  
+}
+.menu-a-la-carte:hover,
+.menu-executive-set-lunch:hover,
+.menu-tour-de-forece-menu:hover,
+.menu-chef-table:hover {
+  opacity: 0.7;
+  
+
+}
+.menu-a-la-carte {
+  top: 400px;
+  left: 75px;
+  font-size: 24px;
+  
+  
+}
+.menu-executive-set-lunch {
+  font-size: 18px;
+  width: 250px;
+  top: 150px;
+  left: 20px;
+  
+}
+.menu-tour-de-forece-menu {
+  font-size: 18px;
+  top: 480px;
+  left: 42px;
+}
+.menu-chef-table {
+  font-size: 24px;
+  top: 70px;
+  left: 450px;
+}
